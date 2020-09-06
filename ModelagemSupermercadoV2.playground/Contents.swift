@@ -136,22 +136,17 @@ class Bebida: Produto {
         super.init(nome: nome, fornecedor: fornecedor, quantidade: quantidade, preco: preco, dataDeFabricacao: dataDeFabricacao, descricao: descricao, fabricante: fabricante, tipo: tipo, id: id, dataDeVencimento: dataDeVencimento)
     }
     
-    
-    
     func getVolumeDaUnidade() -> String {
         return self.volumeDaUnidade;
     }
-    
     
     func getGelada() -> Bool {
         return self.gelada;
     }
     
-    
     func setVolumeDaUnidade(_ volumeDaUnidade:String) {
         return self.volumeDaUnidade = volumeDaUnidade;
     }
-    
     
     func setGelada(_ gelada: Bool) {
         return self.gelada = gelada;
@@ -181,10 +176,10 @@ class Comida: Produto {
         return self.congelada;
     }
     
-    
     func setTipoDeUnidade(tipoDeUnidade: String) {
         return self.tipoDeUnidade = tipoDeUnidade;
     }
+    
     func setCongelada(congelada: Bool) {
         return self.congelada = congelada;
     }
